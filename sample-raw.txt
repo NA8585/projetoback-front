@@ -1,0 +1,2 @@
+Lap:1 Speed:120 RPM:6500 FuelLevel:45 FuelPerLap:2.5 S1:30.5 S2:31.1 S3:32.0
+Lap:2 Speed:118 RPM:6400 FuelLevel:42.4 FuelPerLap:2.6 S1:30.6 S2:31.0 S3:31.9

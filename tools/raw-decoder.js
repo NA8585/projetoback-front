@@ -17,7 +17,10 @@ function parseLine(line) {
   const obj = {};
   line.trim().split(/\s+/).forEach(kv => {
     const [key, val] = kv.split(':');
-    if (key) obj[key] = Number(val);
+    if (key) {
+      const num = Number(val);
+      obj[key] = isNaN(num) ? val : num;
+    }
   });
   return obj;
 }
